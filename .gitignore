@@ -1,0 +1,7 @@
+### Django ###
+staticfiles
+info.txt
+*.log
+*.pot
+*.pyc
+__pycache__/
