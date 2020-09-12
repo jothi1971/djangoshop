@@ -1,0 +1,68 @@
+Demo
+Task assignment and tracking
+//loginview
+https://www.youtube.com/watch?v=8V-mscw6H64
+---------------
+custom account
+model signals
+email
+payment
+tests
+form stying ??
+----------
+first 5 videos- no filtering category, all, shirts..etc
+
+video3 - accounts customisation allauth templates, templatetags(cart item count)
+----------
+
+video 1 - allauth install
+
+home paqe - ok - video 10
+detail page -ok - video 10
+order summary- ok - video 10
+checkout page - ok - video 10
+stripe payment screen - ok - video 10
+
+logout - nok - video 10
+signup - no - video 10
+
+remove bottom items from detail view
+---------
+path('accounts/', include('django.contrib.auth.urls')),
+
+accounts/login/ [name='login']
+accounts/logout/ [name='logout']
+accounts/password_change/ [name='password_change']
+accounts/password_change/done/ [name='password_change_done']
+accounts/password_reset/ [name='password_reset']
+accounts/password_reset/done/ [name='password_reset_done']
+accounts/reset/<uidb64>/<token>/ [name='password_reset_confirm']
+accounts/reset/done/ [name='password_reset_complete']
+
+------------
+//paypal
+https://overiq.com/django-paypal-integration-with-django-paypal/
+
+//django search filter
+https://github.com/justdjango/djfilter
+
+search???
+templates account, openid, socialaccount??
+--------
+copy main urls.py
+databases in settings.py
+installed apps
+copy core urls
+copy core views
+copy forms.py
+copy models.py
+settings STRIPE_SECRET_KEY
+create static, templates, templatetags under core
+copy all css,js,scss,img under static/core
+set media_url, media_root and static_root in settings.py
+copy html files in core/templates/core
+include templates directory in settings.py
+refer home.html as core/home.html
+modify admin.py
+settings.py include SITE_ID and LOGIN_REDIRECT_URL
+template tags
