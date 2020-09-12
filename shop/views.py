@@ -443,7 +443,15 @@ def search_items(request):
 class ItemDetailView(DetailView):
     model = Item
     template_name = "shop/product.html"
-
+                             
+    def get(self, *args, **kwargs):
+        if self.request.user.is_authenticated:
+            print('user authenticated ')
+        else:
+            print('user not authenticated ')
+            messages.info(self.request, "please login first")
+            return redirect("/")
+                             
     def get_context_data(self, **kwargs):
         # Call the base implementation first to get a context
         print('get context data called')
