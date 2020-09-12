@@ -446,9 +446,9 @@ class ItemDetailView(DetailView):
 
     def get(self, *args, **kwargs):
         if self.request.user.is_authenticated:
-            print('user authenticated ')
+            print('user is authenticated ')
         else:
-            print('user not authenticated ')
+            print('user is not authenticated ')
             messages.info(self.request, "please login first")
             return redirect("/")
 
