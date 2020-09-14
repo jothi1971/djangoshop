@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ca5ac7-5b73-4109-8484-77c8e9bc0636" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,31 +63,35 @@
     <session id="-1913397364">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="Procfile" value="1" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop/views.py">
+        <entry file="file://$PROJECT_DIR$/djangoshop/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="449" column="13" lean-forward="true" selection-start-line="449" selection-start-column="13" selection-end-line="449" selection-end-column="13" />
+            <state>
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1375" />
-    <option name="y" value="23" />
+    <option name="x" value="1319" />
+    <option name="y" value="57" />
     <option name="width" value="1463" />
     <option name="height" value="730" />
   </component>
@@ -130,11 +136,6 @@
             <path>
               <item name="djangoshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoshop" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,9 +174,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1375" y="23" width="1463" height="730" extended-state="0" />
+    <frame x="1319" y="57" width="1463" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24965326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -186,7 +188,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -235,18 +237,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4611">
           <caret line="168" column="26" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="449" column="13" lean-forward="true" selection-start-line="449" selection-start-column="13" selection-end-line="449" selection-end-column="13" />
+        <state relative-caret-position="254">
+          <caret line="458" selection-start-line="458" selection-end-line="458" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoshop/settings/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoshop/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
