@@ -102,7 +102,7 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.18
 PyDispatcher==2.0.5
-Pygments==2.2.0
+Pygments==2.7.4
 PyHamcrest==2.0.2
 pyinstaller==4.0
 pyinstaller-hooks-contrib==2020.7
